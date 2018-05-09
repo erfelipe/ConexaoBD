@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="conexaobd.FXMLListarAlunosController">
+   <children>
+      <TableView fx:id="table_alunos" layoutX="14.0" layoutY="14.0" prefHeight="378.0" prefWidth="574.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="col_nome" prefWidth="256.0" text="Nome" />
+          <TableColumn fx:id="col_sexo" prefWidth="43.0" text="Sexo" />
+            <TableColumn fx:id="col_endereco" prefWidth="164.0" text="Endereço" />
+            <TableColumn fx:id="col_datanasc" minWidth="0.0" prefWidth="114.0" text="Data Nascimento" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="312.0" prefWidth="416.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="conexaobd.FXMLCadastrarAlunoController">
+   <children>
+      <TextField fx:id="edtNome" layoutX="30.0" layoutY="34.0" prefHeight="27.0" prefWidth="357.0" />
+      <TextField fx:id="edtEndereco" layoutX="30.0" layoutY="136.0" prefHeight="27.0" prefWidth="357.0" />
+      <Button fx:id="btnCancelar" layoutX="30.0" layoutY="256.0" mnemonicParsing="false" onAction="#evtCancelar" prefHeight="27.0" prefWidth="154.0" text="Cancelar" />
+      <Button fx:id="btnGravar" layoutX="228.0" layoutY="256.0" mnemonicParsing="false" onAction="#evtGravar" prefHeight="27.0" prefWidth="154.0" text="Gravar" />
+      <DatePicker fx:id="edtDataNasc" layoutX="30.0" layoutY="194.0" />
+      <RadioButton fx:id="chkFeminino" layoutX="30.0" layoutY="79.0" mnemonicParsing="false" text="Feminino" />
+      <RadioButton fx:id="chkMasculino" layoutX="127.0" layoutY="79.0" mnemonicParsing="false" text="Masculino" />
+      <Label layoutX="30.0" layoutY="14.0" text="Nome" />
+      <Label layoutX="32.0" layoutY="115.0" text="Endereço" />
+      <Label layoutX="32.0" layoutY="174.0" text="Data Nascimento" />
+   </children>
+</AnchorPane>
